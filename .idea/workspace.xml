@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95533b4b-93b0-48bd-ad4c-29b65d01c5bd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/aboout.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/acc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/anniver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/bx_loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/enosima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/enosima2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/ins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/inst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/insta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/mark1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/mark2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/mark3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/nsw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/pback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/sns.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/test1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/test2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/test3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/test4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/test5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/tesukiwashi-pattern-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/topic-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/topic-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/topic-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/topic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/twi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/wall04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/washi-pattern-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/calendar.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/gcal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/moveTo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/skippr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/top.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/topics.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/flash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/topics.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/calendar_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/top_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/topics_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/calendar_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/lesson_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/top_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/topics_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/topic.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/calendar/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/top/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/topics/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/topics/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/topics/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/topics/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/topics/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/skippr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/swiper.min.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/komarine@db_migrate__komarine.rcov" NAME="db:migrate: komarine Coverage Results" MODIFIED="1530000746822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="komarine" />
+    <SUITE FILE_PATH="coverage/komarine@Production__komarine.rcov" NAME="Production: komarine Coverage Results" MODIFIED="1530000330061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="komarine" />
+    <SUITE FILE_PATH="coverage/komarine@Rails_console__komarine.rcov" NAME="Rails console: komarine Coverage Results" MODIFIED="1529916729165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="komarine" />
+    <SUITE FILE_PATH="coverage/komarine@IRB_console__komarine.rcov" NAME="IRB console: komarine Coverage Results" MODIFIED="1529917345439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="komarine" />
+    <SUITE FILE_PATH="coverage/komarine@Development__komarine.rcov" NAME="Development: komarine Coverage Results" MODIFIED="1530003552811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="komarine" />
+    <SUITE FILE_PATH="coverage/komarine@db_create__komarine.rcov" NAME="db:create: komarine Coverage Results" MODIFIED="1529918571907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="komarine" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/controllers/top_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="229" />
+    <option name="y" value="22" />
+    <option name="width" value="1138" />
+    <option name="height" value="661" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="komarine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="komarine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="komarine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="komarine" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="komarine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="komarine" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="RunAnythingHistoryKey" value="mysql&#9;null&#9;null&#10;mysqld_safe --skip-grant-tables &amp;&#9;null&#9;null&#10;systemctl start mysqld.service&#9;null&#9;null&#10;mysql.server stop&#9;null&#9;null&#10;mysql.server start&#9;null&#9;null&#10;mysql.server.stop&#9;null&#9;null&#10;mysql.server,stop&#9;null&#9;null&#10;mysql.server start --skip-grant-tables&#9;null&#9;null&#10;mysql -u root -p&#9;null&#9;null&#10;bundle exec rake db:create&#9;null&#9;null&#10;show database&#9;null&#9;null&#10;mysql -u root &#9;null&#9;null&#10;mysql.service stop&#9;null&#9;null&#10;mysql -u root -YES&#9;null&#9;null&#10;mysql -u root -jpn14524&#9;null&#9;null&#10;mysql -u root&#9;null&#9;null&#10;rake db:migrate&#9;null&#9;null&#10;rake db:create&#9;null&#9;null&#10;rails db:create&#9;null&#9;null&#10;rails mysql&#9;null&#9;null&#10;db:migrate: komarine&#9;RUN_CONFIGURATION&#9;db:migrate: komarine&#10;db:migrate&#9;ACTION&#9;rake:db:migrate&#10;db:create&#9;ACTION&#9;rake:db:create&#10;sudo mysql.server start&#9;null&#9;null&#10;sudo touch /tmp/mysql.sock&#9;null&#9;null&#10;gem install mysql2 &#9;null&#9;null&#10;gem install mysql -- --with-mysql-lib=/usr/lib/mysql&#9;null&#9;null&#10;mysql-ctl start&#9;null&#9;null&#10;gem install mysql2 -v '0.5.1'&#9;null&#9;null&#10;brew reinstall mysql&#9;null&#9;null&#10;brew install mysql&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views" />
+      <recent name="$PROJECT_DIR$/app/models" />
+      <recent name="$PROJECT_DIR$/app/controllers" />
+      <recent name="$PROJECT_DIR$/app/helpers" />
+      <recent name="$PROJECT_DIR$/vendor" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="b">
+      <command value="brew install mysql" />
+      <command value="brew reinstall mysql" />
+      <command value="gem install mysql2 -v '0.5.1'" />
+      <command value="mysql-ctl start" />
+      <command value="gem install mysql -- --with-mysql-lib=/usr/lib/mysql" />
+      <command value="gem install mysql2" />
+      <command value="sudo touch /tmp/mysql.sock" />
+      <command value="sudo mysql.server start" />
+      <command value="rails mysql" />
+      <command value="rails db:create" />
+      <command value="rake db:create" />
+      <command value="rake db:migrate" />
+      <command value="mysql -u root -jpn14524" />
+      <command value="mysql -u root -YES" />
+      <command value="mysql.service stop" />
+      <command value="mysql -u root" />
+      <command value="show database" />
+      <command value="bundle exec rake db:create" />
+      <command value="mysql -u root -p" />
+      <command value="mysql.server start --skip-grant-tables" />
+      <command value="mysql.server,stop" />
+      <command value="mysql.server.stop" />
+      <command value="mysql.server start" />
+      <command value="mysql.server stop" />
+      <command value="systemctl start mysqld.service" />
+      <command value="mysqld_safe --skip-grant-tables &amp;" />
+      <command value="mysql" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: komarine">
+    <configuration name="IRB console: komarine" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="komarine" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$APPLICATION_HOME_DIR$/rb/testing/runner/irb.rb" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+    </configuration>
+    <configuration name="Rails console: komarine" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="komarine" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
+    </configuration>
+    <configuration name="Development: komarine" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="komarine" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="Production: komarine" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="komarine" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="db:create: komarine" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="komarine" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:create" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="db:migrate: komarine" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="komarine" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="spec: komarine" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="komarine" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="test: komarine" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="komarine" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Rake.test: komarine" />
+      <item itemvalue="Rake.spec: komarine" />
+      <item itemvalue="Rails.Production: komarine" />
+      <item itemvalue="Rails.Development: komarine" />
+      <item itemvalue="IRB console.Rails console: komarine" />
+      <item itemvalue="IRB console.IRB console: komarine" />
+      <item itemvalue="Rake.db:create: komarine" />
+      <item itemvalue="Rake.db:migrate: komarine" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Rake.db:migrate: komarine" />
+        <item itemvalue="Rake.db:create: komarine" />
+        <item itemvalue="IRB console.IRB console: komarine" />
+        <item itemvalue="IRB console.Rails console: komarine" />
+        <item itemvalue="IRB console.Rails console: komarine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95533b4b-93b0-48bd-ad4c-29b65d01c5bd" name="Default" comment="" />
+      <created>1529916032628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529916032628</updated>
+      <workItem from="1529916034189" duration="1681000" />
+      <workItem from="1529917852180" duration="990000" />
+      <workItem from="1529998444239" duration="7439000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10110000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="229" y="22" width="1138" height="661" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22407733" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37478706" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32879046" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/top_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/calendar.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/fullcalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1204" column="24" lean-forward="true" selection-start-line="1204" selection-start-column="24" selection-end-line="1204" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#58#64#1" expanded="true" />
+            <element signature="e#58#64#1" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="e#4#10#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/calendar_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/calendar/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/calendar_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/topics/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/top/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
