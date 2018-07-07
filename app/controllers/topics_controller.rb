@@ -18,14 +18,14 @@ class TopicsController < ApplicationController
   def create
     @topic = Topic.new(params[:topic])
     if @topic.save
-      redirect_to @topic, notice:"トピック登録しました"
+      redirect_to @topic, notice: "トピック登録しました"
     else
       render "new"
     end
   end
 
   def update
-    @topic=Topic.find(params[:id])
+    @topic = Topic.find(params[:id])
     @topic.assign_attributes(params[:topic])
     if @topic.save
       redirect_to @topic, notice: "トピックを更新しました"

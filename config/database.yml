@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: komarine_production
-  username: komarine
-  password: jpn14524
+  username: root
+  password:
