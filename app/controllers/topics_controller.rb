@@ -1,6 +1,6 @@
 class TopicsController < ApplicationController
   def index
-    @topics = Topic.order("id")
+    @topics = Topic.order(id: "DESC")
   end
 
   def show

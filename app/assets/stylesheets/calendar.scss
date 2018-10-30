@@ -2,3 +2,46 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+#calendar{
+  width: 26%;
+  font-size: 8px;
+  margin-top: -10px;
+  transform:scaleY(0.9);
+}
+
+h2{
+  font-size: 15px;
+}
+.fc-sun { color: black; }  /* 日曜日 */
+.fc-sat { color: black; }
+
+.fc th,
+.fc td {
+  font-size: 10px;
+  padding: 0px;
+  border-color: #000000;
+  background-color: #F7F7F7;
+
+}
+
+.fc td.fc-today {
+
+  background-color: rgba(0, 160, 250, 0.78);
+  border-color: #000000;
+}
+
+
+.fc-basic-view .fc-body .fc-row {
+  min-height: 0.5em !important;
+
+}
+.fc-scroller{
+  border-color: #F7F7F7;
+}
+.fc button {
+  height: 2em !important;
+  padding: 0 .1em !important;
+  background-color: #ffffff;
+  /* text & cursor */
+  font-size: 0.8em !important;
+}

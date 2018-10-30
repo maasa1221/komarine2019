@@ -2960,7 +2960,7 @@ EventDef.defineStandardProps({
     durationEditable: true,
     color: true,
     backgroundColor: true,
-    borderColor: true,
+    borderColor: false,
     textColor: true
 });
 

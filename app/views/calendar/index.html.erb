@@ -1,3 +1,63 @@
-<h1>Calendar#index</h1>
-<div id="calendar"></div>
-<p>Find me in app/views/calendar/index.html.erb</p>
+<html>
+<body id="page">
+  <div id="calendar">
+    <%= javascript_tag do %>
+      window.calendar_datas = <%= raw @datas.to_json %>;
+    <% end %>
+    <div id="calendar"></div>
+
+  </div>
+
+  <script>
+      $(document).ready(function () {
+          $('#calendar').fullCalendar({
+
+
+
+              eventSources: [
+                  {
+                      // THIS KEY WON'T WORK IN PRODUCTION!!!
+                      // To make your own Google API key, follow the directions here:
+                      // http://fullcalendar.io/docs/google_calendar/
+                      googleCalendarApiKey: 'AIzaSyDUpj6c-ngDmFJRha__JiVByw1SsUAmbXI',
+
+                      // JP Holidays
+                      url: 'ekcq9ed8nqvsijti01k1tictlo@group.calendar.google.com',
+                      color: 'navy',   // an option!
+                      textColor: 'white',
+                      borderColor: 'black',
+
+
+                  },
+                  {
+                      // THIS KEY WON'T WORK IN PRODUCTION!!!
+                      // To make your own Google API key, follow the directions here:
+                      // http://fullcalendar.io/docs/google_calendar/
+                      googleCalendarApiKey: 'AIzaSyDUpj6c-ngDmFJRha__JiVByw1SsUAmbXI',
+
+                      // JP Holidays
+                      url: 'ja.japanese#holiday@group.v.calendar.google.com',
+                      color: 'red',   // an option!
+                      textColor: 'white'
+                  }
+              ],
+
+
+              header: {
+
+                  left: 'prev',
+                  center: 'title',
+                  right: 'next',
+                  eventListButton: {
+                      text: 'イベントリスト',
+                      click: function () {
+                          alert('イベントリスト!');
+                      }
+                  }
+              },
+
+          });
+      });
+  </script>
+</body>
+</html>

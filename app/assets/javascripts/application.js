@@ -21,3 +21,5 @@
 
 
 //= require_tree ../../../vendor/assets/javascripts/.
+//= require masonry/jquery.masonry
+

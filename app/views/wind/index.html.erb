@@ -1,0 +1,52 @@
+<html >
+<div id="windguru" style="margin-right:399px;"><!--ウインドグルのウィジェット置き場-->
+  <div id="wg_target_div_208567_78436648"></div>
+</div>
+
+<script src="http://widget.windguru.cz/js/wg_widget.php" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript" id="wind">
+    //<![CDATA[
+    WgWidget({
+            s: 208567, odh: 0, doh: 24, wj: 'knots', tj: 'c', waj: 'm', fhours: 72, lng: 'en',
+            params: ['WINDSPD', 'GUST', 'SMER', 'HTSGW', 'TMPE'],
+            first_row: false,
+            second_line: false,
+            spotname: false,
+            first_row_minfo: false,
+            last_row: false,
+            lat_lon: false,
+            tz: false,
+            sun: false,
+            link_archive: false,
+            link_new_window: false
+        },
+        'wg_target_div_208567_78436648'
+    );
+    //]]>
+</script>
+<!--
+
+      <div class="swiper-container" style="width: 1000px;">
+        <div class="swiper-wrapper">
+         <% if @topics.present? %>
+  <% @topics.each do |topic| %>
+    <% @imgname = topic.imgname %>
+
+              <div class="swiper-slide">
+                <div class="topics-list">
+                            <span class="image-wrapper">
+                              <%= link_to(image_tag(@imgname, size: "200x200")) %>
+                            </span>
+                  <time class="date" datetime="<%= topic.day %>"><%= topic.day %></time>
+                  <b class="title"><%= topic.title %></b>
+                  <!--<p class="description"><%= topic.column %></p>-->
+    </div>
+    </div>
+  <% end %>
+<% else %>
+  <p>コラムはありません</p>
+<% end %>
+</div>
+</div>
+</div>
+</html>
