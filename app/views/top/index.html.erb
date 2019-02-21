@@ -2,20 +2,27 @@
 <html lang="ja" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8">
+
   <title>慶應義塾大学海洋研究会マリンヨットクラブ</title>
-</head>
+  </head>
 <body id="top">
   <div id="page">
    <header>
-    <div id="name">
-      <marquee scrollamount="4">慶應義塾大学海洋研究会マリンヨットクラブは１９５１年に創部された文化団体連盟サークルです。　　　Keio University Ocean Research Group Marine Yacht Club is a cultural association federation circle founded in 1951.</marquee>
-    </div>
+
+    <hr width="100%" size="10" color="#1c1464">
     <div id="logo">
-      <%= link_to(image_tag("mark2.png", size: "100x100"), "#logo") %><!--ロゴ-->
+      <%= link_to(image_tag("logomark.jpg", height: "120"), "#logo") %><!--ロゴ-->
     </div>
+    <nav>
+      <ul>
+        <a href="#kite"><li>ABOUT</li></a>
+        <a href="#snsh"><li>SNS</li></a>
+        <a href="#info"><li>INFO</li></a>
+      </ul>
+    </nav>
    </header>
     <div id="main">
-      <%= link_to(image_tag("main.jpg", size: "800x600")) %>
+      <%= link_to(image_tag("main.gif", height: "500")) %>
     </div>
     <div id="kite">
       <%= image_tag("kite.jpg", size: "120x160") %><!--ロゴ-->
@@ -23,65 +30,26 @@
     <div id="aboutbox">
     <div id="about">
       <h1>ABOUT US</h1>
-      <p class="infon">本サークルは慶應義塾大学文化団体連盟に所属している公認サークルです。マリンスポーツサークルとして、ヨット、ウインドサーフィン、SUPの三種目を活動として楽しむと同時に、その発展にも貢献していけるように日々尽力して入ります。<br><br>
-        This circle is a certified circle belonging to the Keio University Federation of Cultural Organizations. As a marine sports circle, I enjoy working as a third type of yachting, wind surfing and SUP as activities and at the same time, I will work hard to contribute to the development.</p>
+      <p class="infon">海洋研究会マリンヨットクラブ（略称　慶応マリン）は慶應義塾大学文化団体連盟所属の公認サークルです。ヨット、ウインドサーフィン、SUPの三種目を活動として楽しむと同時に、江ノ島を拠点としてマリンスポーツの発展にも貢献していけるように日々尽力しております。<br><br>
+        This circle is a certified circle belonging to the Keio University Federation of Cultural Organizations. <br>As a marine sports circle, I enjoy working as a third type of yachting, wind surfing and SUP as activities and at the same time, I will work hard to contribute to the development.</p>
     </div>
     </div>
     <div id="toudai">
-      <%= image_tag("toudai.jpg", size: "250x250") %><!--ロゴ-->
+      <%= image_tag("toudai.gif", width: "500") %><!--ロゴ-->
     </div>
-    <div class="slider">
-      <input type="radio" name="slider" class="nav" checked="checked"/>
-      <input type="radio" name="slider" class="nav"/>
-      <input type="radio" name="slider" class="nav"/>
-      <ul class="slider_in">
-        <li>
-          <div>
-            <h1>WINDSURF</h1>
-            <div id="movie">
-              <%= video_tag ["/video/wind.mp4"], :autoplay => true, :loop => true, :muted => true, :size => '400' %>
-            </div>
-            <div class="info">
-              <p class="infon">
-                Windsurfing is a sport that rigs (sails) are attached to the board and lightly slides on the water using the wind.<br><br>
-                ウインドサーフィンはボードに帆（リグ）を取り付けることで、風を利用して軽快に水上を滑走するスポーツです。
-              </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h1>SUP</h1>
-            <div id="movie">
-              <%= video_tag ["/video/wind.mp4"], :autoplay => true, :loop => true, :muted => true, :size => '400' %>
-            </div>
-            <div class="info">
-              <p class="infon">
-                SUP (Stand Up Paddle) stands on board with paddle as the word is, is a marine sports that everyone can enjoy easily.<br><br>
-                SUP(スタンドアップパドル）は言葉の通りパドルを持ってボードの上に立ち、誰でも気軽に楽しむことができるマリンスポーツです。
-              </p>
-            </div>
-          </div>
-          </li>
-        <li>
-          <div>
-            <h1>YACHT</h1>
-            <div id="movie">
-              <%= video_tag ["/video/wind.mp4"], :autoplay => true, :loop => true, :muted => true, :size => '400' %>
-            </div>
-            <div>
-              <div class="info">
-                <p class="infon">
-                  Windsurfing is a sport that rigs (sails) are attached to the board and lightly slides on the water using the wind.<br><br>
-                  ウインドサーフィンはボードにリグ(帆)を取り付けることで、風を利用して軽快に水上を滑走するスポーツです。
-                </p>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div id="info">
+    <div id="sns">
+      <h1 id="snsh">SNS</h1>
+      <div id="snsbox">
+      <div id="insta" >
+      <a href="https://instawidget.net/v/user/keio.marine" id="link-6b33d6f8cade4006b71a50863ff1d17bd00ac949ef71dcbfd521f8efc1c5d426">@keio.marine</a>
+      <script src="https://instawidget.net/js/instawidget.js?u=6b33d6f8cade4006b71a50863ff1d17bd00ac949ef71dcbfd521f8efc1c5d426&width=700px"></script>
+      </div>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkeiomarine%2F&tabs=timeline&width=300&height=400&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=1924847531142382" width="300" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      <a class="twitter-timeline" data-width="300" data-height="400" data-link-color="#2B7BB9" href="https://twitter.com/KEIO_MARINE1951?ref_src=twsrc%5Etfw">Tweets by KEIO_MARINE1951</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      </div>
+
+      <div id="info">
       <h1>INFOMATION</h1>
       <p id="jp" class="infon">【入部するには？】<br>
             いつでも体験お待ちしております。<br>
@@ -98,7 +66,8 @@
             keiomarine2018@gmail.com
           </p>
     </div>
-    <div id="kamomebox" >
+
+      <div id="kamomebox" >
       <div id="kamomes">
         <div class="kamome">
           <%= image_tag("kamome.png", size: "35x18") %>
@@ -120,50 +89,39 @@
 
 
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 4,
-        spaceBetween: 0,
-        centeredSlides: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-
-    // スムーススクロールを起動する
-    $("document").ready(function () {
-        $("#theTarget").skippr();
-    });
-
-    // オプションを指定してSkipperの実行
-    $("#theTarget").skippr({
-        // スライドショーの変化 ("fade" or "slide")
-        transition: 'slide',
-        // 変化に係る時間(ミリ秒)
-        speed: 1500,
-        // easingの種類
-        easing: 'easeOutQuart',
-        // ナビゲーションの形("block" or "bubble")
-        navType: false,
-        // 子要素の種類("div" or "img")
-        childrenElementType: 'img',
-        // ナビゲーション矢印の表示(trueで表示)
-        arrows: false,
-        // スライドショーの自動再生(falseで自動再生なし)
-        autoPlay: true,
-        // 自動再生時のスライド切替間隔(ミリ秒)
-        autoPlayDuration: 2100,
-        // キーボードの矢印キーによるスライド送りの設定(trueで有効)
-        keyboardOnAlways: false,
-        // 一枚目のスライド表示時に戻る矢印を表示するかどうか(falseで非表示)
-        hidePrevious: false
-    });
-1
-
+var scrollElm = (function() {
+  if('scrollingElement' in document) return document.scrollingElement;
+  if(navigator.userAgent.indexOf('WebKit') != -1) return document.body;
+  return document.documentElement;
+})();
+(function() {
+  var duration = 500;
+  var ignore = '.noscroll';
+  var easing = function (t, b, c, d) { return c * (0.5 - Math.cos(t / d * Math.PI) / 2) + b; }; //jswing
+  var smoothScrollElm = document.querySelectorAll('a[href^="#"]:not(' + ignore +')');
+  Array.prototype.forEach.call(smoothScrollElm, function(elm) {
+    elm.addEventListener('click', function(e) {
+      e.preventDefault();
+      var targetElm = document.querySelector(elm.getAttribute('href'));
+      if(!targetElm) return;
+      var targetPos = targetElm.getBoundingClientRect().top;
+      var startTime = Date.now();
+      var scrollFrom = scrollElm.scrollTop;
+      (function loop() {
+        var currentTime = Date.now() - startTime;
+        if(currentTime < duration) {
+          scrollTo(0, easing(currentTime, scrollFrom, targetPos, duration));
+          window.requestAnimationFrame(loop);
+        } else {
+          scrollTo(0, targetPos + scrollFrom);
+        }
+      })();
+    })
+  });
+})();
 </script>
 
 
 
 </body>
 </html>
-
